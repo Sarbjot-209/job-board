@@ -1,0 +1,73 @@
+
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "department": "Engineering",
+    "location": "Remote",
+    "description": "We're looking for a skilled frontend developer with experience in React.js and modern CSS."
+  },
+  {
+    "id": 2,
+    "title": "UX Designer",
+    "department": "Design",
+    "location": "Bangalore",
+    "description": "Design beautiful interfaces and delightful user experiences."
+  },
+  {
+    "id": 3,
+    "title": "Backend Developer",
+    "department": "Engineering",
+    "location": "Delhi",
+    "description": "Strong understanding of REST APIs and Node.js."
+  },
+  {
+    "id": 4,
+    "title": "QA Analyst",
+    "department": "Quality Assurance",
+    "location": "Remote",
+    "description": "Manual and automated testing experience required."
+  },
+  {
+    "id": 5,
+    "title": "Product Manager",
+    "department": "Management",
+    "location": "Mumbai",
+    "description": "Lead cross-functional teams and manage product lifecycle."
+  },
+  {
+  "id": 6,
+  "title": "DevOps Engineer",
+  "department": "Engineering",
+  "location": "Hyderabad",
+  "description": "Looking for an expert in CI/CD pipelines, cloud infrastructure, and containerization tools like Docker and Kubernetes."
+},
+{
+  "id": 7,
+  "title": "Graphic Designer",
+  "department": "Design",
+  "location": "Chennai",
+  "description": "Create visual concepts and branding materials for web and print media."
+},
+{
+  "id": 8,
+  "title": "Data Analyst",
+  "department": "Data Science",
+  "location": "Pune",
+  "description": "Analyze large datasets to derive actionable insights and support business decisions."
+},
+{
+  "id": 9,
+  "title": "HR Executive",
+  "department": "Human Resources",
+  "location": "Remote",
+  "description": "Handle recruitment, onboarding, and employee engagement activities."
+},
+{
+  "id": 10,
+  "title": "Digital Marketing Specialist",
+  "department": "Marketing",
+  "location": "Noida",
+  "description": "Plan and execute online marketing strategies including SEO, SEM, and social media campaigns."
+}
+]

@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Job Board - Acme Corp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light">
+  <header>
+    <img src="acmes.jpg" alt="Acme Corp Logo" class="logo" />
+    <h1>Open Positions at Acme Corp</h1>
+    <p class="tagline">Join our innovative and dynamic team!</p>
+    <button id="theme-toggle">Toggle Theme</button>
+  </header>
+
+  <section class="filters">
+    <input type="text" id="searchInput" placeholder="Search by job title" />
+    <select id="departmentFilter">
+      <option value="">All Departments</option>
+    </select>
+  </section>
+
+  <section id="job-listings" class="job-listings">
+    <div id="loader">Loading jobs...</div>
+  </section>
+
+  <div id="job-modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <span class="close" id="closeModal" tabindex="0">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <a href="#" id="applyLink" target="_blank">Apply Now</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
